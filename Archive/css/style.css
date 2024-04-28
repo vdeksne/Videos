@@ -1,0 +1,508 @@
+@font-face {
+    font-family: 'GTEestiProDisplay-Light';
+    src: url('../assets/GTEestiProDisplay-Light.woff2') format('woff2'); 
+    /* font-weight: normal; */
+    font-style: normal;
+  }
+  @font-face {
+    font-family: 'GTEestiProDisplay-Medium';
+    src: url('../assets/GTEestiProDisplay-Medium.woff2') format('woff2');   
+    /* font-weight: normal; */
+    font-style: normal;
+  }
+
+:root {
+    --color-main: #000;
+    --color-secondary: #000;
+    --color-text: #666;
+    --color-background: #FEF7EF;
+
+    --weight-bold: 500;
+
+    --padding-base: 2rem;
+}
+html {
+    font-family: 'GTEestiProDisplay-Medium', sans-serif;
+    /* font-weight: 300; */
+}
+
+.heading {
+    font-size: 2.5rem;
+    width: 69%;
+}
+.lead {
+    width: 69%;
+    max-width: 100%;
+}
+.subheading {
+    margin: 3rem;
+    font-size: 3.5rem;
+    text-align: center;
+    width: 80%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.heading-2 {
+    display: flex;
+    justify-content: center;
+    margin-top: 0;
+}
+
+.title {
+    color: #000;
+    text-align: right !important;
+    align-items: flex-end;
+}
+
+.text {
+    align-items: flex-end;
+}
+
+.text h3 {
+    color: #000;
+    text-align: right;
+    font-size: 3.4rem;
+    line-height: 3.5rem; /* 112.727% */
+    width: 90%;
+    align-items: flex-end;
+}
+
+.text p {
+    color: #000;
+    text-align: right;
+    font-family: 'GTEestiProDisplay-Light', sans-serif;
+    font-size: 1.5rem;
+    width: 85%;
+    margin-top: 1rem;
+}
+
+.text-2 {
+    align-items: flex-start;
+    text-align: left !important;
+    
+}
+
+.text-2 p {
+    align-items: flex-start !important;
+    text-align: left !important;
+}
+
+.text-2 h3 {
+    width: 80%;
+}
+
+.title-2 {
+    align-items: flex-start !important;
+    text-align: left !important;
+}
+
+
+
+.my-custom-slider {
+    margin-top: 4rem;
+}
+.my-custom-slider .title {
+    margin: 1rem 0 .5rem;
+}
+
+.heading h1 {
+    font-size: 3.5rem;
+    /* width: 53rem; */
+}
+.img-1 {
+    width: 5.531rem;
+    height: 3.71rem;
+}
+
+.img-2 {
+    width: 4.56413rem;
+    height: 4.23581rem;
+}
+
+.img-3 {
+    width: 6.25519rem;
+    height: 4.19463rem;
+}
+
+.img-4 {
+    width: 9.194rem;
+    height: 5.8145rem;
+}
+
+.lead {
+    font-family: 'GTEestiProDisplay-Light', sans-serif;
+    font-size: 1.5rem;
+    /* width: 52rem; */
+    /* height: 10.462rem; */
+} 
+
+.container-top {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+}
+
+.header-logos {
+    width: 58%;
+    height: 6rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.video-2 {
+    padding: 3rem;
+    border-radius: 0.625rem;
+}
+
+.video-2 video {
+    border-radius: 0.7rem;
+}
+
+.video-3 video {
+    border-radius: 0.7rem;
+}
+
+.video-3 {
+    padding: 3rem;
+}
+
+.text-4 {
+    align-items: start;
+    text-align: left;
+}
+
+.text-4 h3 {
+    align-items: start;
+    text-align: left !important;
+}
+
+.text-4 p {
+    align-items: start;
+    text-align: left !important;
+    width: 95%;
+}
+
+.image-3 {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}
+
+/* .image-4 {
+    overflow: hidden;
+    height: 22rem;
+    width: auto;
+} */
+
+.image-4 img {
+    clip: rect(2px, auto, auto, 2px); 
+    width: 100%; /* Ensure the image takes up the entire container width */
+    height: auto; /* Maintain the image's aspect ratio */
+}
+
+.tile--alt {
+    margin-bottom: 1.5rem;
+}
+
+.heading-3 {
+    margin-bottom: 1.5rem;
+}
+
+.heading-4 p {
+    font-family: 'GTEestiProDisplay-Light', sans-serif;
+    font-size: 1.5rem;
+    color: #000;
+    text-align: center;
+    width: 90%;
+}
+
+.img-5 {
+    width: 17.09631rem !important;
+    height: auto;
+}
+
+.hero-2 {
+    display: flex;
+    justify-content: center;
+    margin-top: 3rem;
+}
+
+.hero-3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+}
+
+.img-6 {
+    width: 6.19494rem;
+    height: 6.543rem;
+}
+
+.img-7 {
+    width: 4.83781rem;
+    height: 5.87644rem;
+}
+
+.video-container {
+    position: relative;
+}
+
+.progress-bar {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    cursor: pointer;
+    z-index: 10000;
+    color: #FEF7EF;
+    background-color: #3c2122 !important;
+    transition: all 0.25s ease-in-out;
+    transition: value 0.3s ease;
+}
+
+progress::-webkit-progress-value {
+    background-color: #3c2122 !important; /* Change the color here for WebKit browsers */
+}
+
+.progress-bar::-moz-progress-bar {
+    background-color: #3c2122 !important; /* Change the color here for Firefox */
+}
+
+progress::-webkit-media-controls-timeline,
+progress::-webkit-media-controls-timeline-viewport {
+    background-color: #FEF7EF; /* Change to the desired color */
+}
+
+.progress-bar-container {
+    position: relative;
+    /* width: 640px;  */
+    margin-top: 0.4rem; /* Adjust margin as needed */
+}
+
+.video-container {
+    cursor: pointer !important;
+}
+
+.sound {
+    z-index: 1000;
+}
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.a-1 {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.a-3 {
+    display: flex;
+    justify-content: center;
+}
+.a-4 {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.a-5 {
+    width: 100%;
+}
+
+.a-7 {
+    display: flex;
+    justify-content: flex-end;
+}
+.a-9 {
+    display: flex;
+    justify-content: center;
+}
+
+.a-10 {
+    width: 100%;
+}
+
+
+@media (max-width: 480px) {
+
+    .a-1 {
+        display: flex;
+        justify-content: center;
+    }
+
+    .header-logos {
+        width: 58%;
+        height: 6rem;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .heading-5 {
+        margin-bottom: 2rem;
+    }
+
+    .hero-5 {
+        width: 38%;
+        margin: 0 auto;
+    }
+
+    .image-7 {
+        margin-left: 2rem;
+        margin-right: 1rem;
+    }
+
+    .heading-5 {
+        margin-bottom: 3rem;
+    }
+
+    .tile-2 {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .video-2 video {
+        border-radius: 0.4rem 0.4rem 0 0;
+    }
+    
+    .video-3 video {
+        border-radius: 0.4rem 0.4rem 0 0;
+    }
+
+    .video-4 video {
+        border-radius: 0.4rem 0.4rem 0 0;
+    }
+
+    .progress-bar-container {
+        position: relative;
+        /* width: 640px;  */
+        margin-top: 0.7rem; /* Adjust margin as needed */
+    }
+
+    .header .cta {
+        margin-top: 1rem;
+    }
+
+    .heading {
+        font-size: 1.5rem;
+        width: 95%;
+    }
+
+    .lead {
+        width: 95%;
+        /* max-width: 100%; */
+        font-size: 0.9rem;
+        margin-bottom: 0.5rem;
+        margin-top: 1rem;
+    }
+
+    .section {
+        margin-top: 2rem;
+    }
+
+    .img-1 {
+        width: auto;
+        height: 2rem;
+    }
+    
+    .img-2 {
+        width: auto;
+        height: 2rem;
+    }
+    
+    .img-3 {
+        width: auto;
+        height: 2rem;
+    }
+
+    .img-4 {
+        width: auto;
+        height: 2rem;
+    }
+
+    .header-logos {
+        width: 88%;
+    }
+
+    .video-2 {
+        padding: 1rem;
+    }
+
+    .text h3 {
+        font-size: 1.5rem;
+        line-height: 2rem;
+        width: 100%;
+        text-align: center !important;
+    }
+
+    .cta {
+        padding: 1.4rem 2.9rem;
+    }
+
+    .text p {
+        font-size: 0.9rem;
+        width: 100%;
+        text-align: center !important;
+    }
+
+    .subheading {
+        font-size: 1.5rem;
+        width: 100% !important;
+        margin: 0;
+    }
+
+    /* .image-4 {
+        height: 13rem;
+    } */
+
+    .title-desktop {
+        display: none;
+    }
+
+    .heading-4 p {
+        font-size: 0.9rem;
+    }
+
+    .cta {
+        font-size: 0.9rem;
+        margin-top: 2rem;
+    }
+
+    .video-3 {
+        padding: 1rem;
+    }
+
+    .video-4 {
+        padding: 1rem;
+    }
+
+    hr {
+        background-color: #488414;
+        width: 50%;
+        margin: 0 auto;
+    }
+}
+
+@media (min-width: 481px) {
+
+    #hr-mobile {
+        display: none;
+    }
+    .heading {
+        font-size: 3rem;
+    }
+
+    .title-mobile {
+        display: none;
+    }
+}
